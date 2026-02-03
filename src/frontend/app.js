@@ -1,5 +1,5 @@
-//const apiEndpoint = "https://fa-todo-backend-baqmes.azurewebsites.net/api/tasks";
-const apiEndpoint = "http://20.82.133.112:8080/api/tasks";
+const apiEndpoint = "https://todo-app.ambitiousmushroom-4c36657b.northeurope.azurecontainerapps.io";
+//const apiEndpoint = "http://20.82.133.112:8080/api/tasks";
 
 $(document).ready(function () {
   // Charger les tâches au démarrage
