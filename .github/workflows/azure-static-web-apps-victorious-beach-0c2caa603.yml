@@ -33,7 +33,6 @@ jobs:
         with:
           urls: |
             https://todo.umutdeger.emf-informatique.ch/
-          uploadArtifacts: true
           temporaryPublicStorage: true
       - name: Build And Deploy
         id: builddeploy
