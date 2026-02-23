@@ -28,6 +28,13 @@ jobs:
             exit 1
            fi
 
+      - name: Run Lighthouse CI
+        uses: treosh/lighthouse-ci-action@v10
+        with:
+          urls: |
+            https://todo.umutdeger.emf-informatique.ch/
+          uploadArtifacts: true
+          temporaryPublicStorage: true
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
