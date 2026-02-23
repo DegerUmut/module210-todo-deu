@@ -4,6 +4,7 @@ let express = require("express"),
     router = express.Router(),
     db = require('../db');
 
+    
 // GET 
 router.get("/", async (req, res, next) => {
     let conn;
