@@ -33,6 +33,7 @@ jobs:
         with:
           urls: |
             https://todo.umutdeger.emf-informatique.ch/
+          configPath: './lighthouserc.json'
           temporaryPublicStorage: true
       - name: Build And Deploy
         id: builddeploy
